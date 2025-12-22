@@ -4,7 +4,6 @@ WebGL-powered React Component for video to ASCII conversion.
 
 ![gta.jpeg](./assets/gta.jpeg)
 
-
 ## Installation
 
 ```bash
@@ -16,14 +15,14 @@ npm install video2ascii
 ```tsx
 import { VideoToAscii } from "video2ascii";
 
-<VideoToAscii 
-    src="/video.mp4" 
-    fontSize={12} 
-    colored={true} 
-    audioReactivity={50} 
-    enableMouse={true}
-    enableRipple={true}
-    charset="detailed"
+<VideoToAscii
+  src="/video.mp4"
+  fontSize={12}
+  colored={true}
+  audioReactivity={50}
+  enableMouse={true}
+  enableRipple={true}
+  charset="detailed"
 />;
 ```
 
@@ -49,7 +48,7 @@ import { VideoToAscii } from "video2ascii";
 ## Character Sets
 
 ```tsx
-import { ASCII_CHARSETS } from "@/lib/ascii-charsets";
+import { ASCII_CHARSETS } from "video2ascii";
 ```
 
 - `standard` — `@%#*+=-:. `
