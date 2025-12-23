@@ -29,7 +29,7 @@ export function useVideoToAscii(
   const {
     fontSize,
     numColumns,
-    colored = false,
+    colored = true,
     blend = 0,
     highlight = 0,
     brightness = 1.0,

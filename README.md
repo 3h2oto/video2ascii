@@ -35,7 +35,7 @@ import Video2Ascii from "video2ascii";
 | ---------------------- | ------------ | ------------ | ------------------------------------------------- |
 | `src`                  | `string`     | required     | Video URL                                         |
 | `numColumns`           | `number`     | -            | Number of columns (controls size)                 |
-| `colored`              | `boolean`    | `false`      | Use video colors vs green terminal                |
+| `colored`              | `boolean`    | `true`      | Use video colors vs green terminal                |
 | `brightness`           | `number`     | `1.0`        | Brightness multiplier (0-2, 1.0 = normal)         |
 | `blend`                | `number`     | `0`          | 0 = ASCII, 100 = original video                   |
 | `highlight`            | `number`     | `0`          | Background behind characters (0-100)              |
